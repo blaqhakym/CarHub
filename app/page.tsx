@@ -7,7 +7,7 @@ import { useState } from "react";
 
 
 
-export default function Home({searchParams}) { // server component gives access to searchParams
+export default async function Home({searchParams}) { // server component gives access to searchParams
   
   const filterParams: searchParamsProps =  {model: searchParams.model || "" , manufacturer: searchParams.manufacturer || "", year: searchParams.year || "", fuel: searchParams.fuel || "", limit: searchParams.limit || '10'}
   const allCars = await getCars(filterParams);
