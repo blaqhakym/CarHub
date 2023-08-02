@@ -1,11 +1,12 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-  - [Car\_Showcase](#car_showcase)
+  - [CarHub](#carhub)
   - [Description](#description)
+  - [Stacks Styling and APIs](#stacks-styling-and-apis)
   - [How to use](#how-to-use)
 
-## Car_Showcase
-Car_Showcase car rental service that help users choose from different car manufacturers and features 
+## CarHub
+CarHub is a car rental service that help users choose from different car manufacturers and features 
 
 
 ## Description
@@ -14,6 +15,22 @@ This project is a full stack [Next.js](https://nextjs.org/) and typescript proje
 This project is built to showcase car manufacturers and car samples with genuine images showing car rentals. Each car card shows full details of selected car including gas type, mileage, rent price and others.
 
 The choice of using Next.js for this product is due to the quality of features that is available out of the box with Next.js such as automatic route handling,  server side rendering as well as server side data fetching, all of which makes code writing less stressfull and there is less external dependency needs.
+
+## Stacks Styling and APIs
+The stacks for this project include:
+1. [`Next.js`](https://nextjs.org/)
+2. [`Typesccript`](https://www.typescriptlang.org/)
+
+Styling Tools:
+
+3. [`Tailwind CSS`](https://tailwindcss.com/)
+4. [`Headless UI`](https://headlessui.com/)
+
+APIs are:
+
+5. [`Imagin studio`](https://www.imagin.studio/)
+6. [`Rapid API`](https://rapidapi.com/hub)
+
 
 
 
